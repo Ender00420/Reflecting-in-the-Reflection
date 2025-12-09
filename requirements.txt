@@ -1,0 +1,7 @@
+jupyter
+seaborn
+matplotlib
+pandas
+openai
+tqdm
+pydantic
