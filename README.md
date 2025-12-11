@@ -1,7 +1,7 @@
-# An Artificial Intelligence-Based System for Automatic Reflection Question Generation in Educational Settings
+# Reflecting in the Reflection: Integrating a Socratic Questioning Framework into Automated AI-Based Question Generation
 
 ## Overview
-This project contains the code and data for the thesis "An Artificial Intelligence-Based System for Automatic Reflection Question Generation in Educational Settings". The project focuses on using OpenAI's GPT-4o-mini model in Socratic dialogue to generate reflection questions for educational purposes. The system is designed to assist educators in creating engaging and thought-provoking questions that can enhance the learning experience.
+This repository contains supplementary data and code for the article **"Reflecting in the Reflection: Integrating a Socratic Questioning Framework into Automated AI-Based Question Generation"**, which is based on the bachelor's thesis "An Artificial Intelligence-Based System for Automatic Reflection Question Generation in Educational Settings". The full text of the thesis can be found in the file `holubon6-ctufit-thesis.pdf`. The project focuses on using OpenAI's GPT-4o-mini model in Socratic dialogue to generate reflection questions for educational purposes. The system is designed to assist educators in creating engaging and thought-provoking questions that can enhance the learning experience.
 
 Please note that the provided notebooks function as a proof of concept and are not intended for full production use. The code may require further optimization and testing before being deployed in a real-world educational setting. Also, be aware that repetition of the process of generation and evaluation of the experiment can take several hours based on the parameters and materials set. **For single question generation, use the provided demo notebook which takes only a few moments.**
 
@@ -9,6 +9,7 @@ Please note that the provided notebooks function as a proof of concept and are n
 ```plaintext
 .
 ├── README.md
+├── holubon6-ctufit-thesis.pdf = Full text of the bachelor's thesis
 ├── requirements.txt
 ├── Data/
 │   ├── socratic_dialogue_loop.ipynb = Notebook used for generation of the dialogues
@@ -26,8 +27,6 @@ Please note that the provided notebooks function as a proof of concept and are n
 │   ├── BestIter/ = Experiment to find the best number of fixed iterations of the dialogue
 │   ├── FreeVSFixed/ = Experiment to compare the dynamic and fixed number of iterations
 │   ├── NoneVSFree/ = Experiment to determine the effect of dialogue on the generation of the questions
-├── Materials/ = Directory containing the materials used for the generation of the dialogues
-├── Thesis/ = Directory containing the LaTeX files used for the generation of the thesis
 ```
 
 ## Requirements
@@ -96,6 +95,6 @@ The `Evals` folder contains the notebooks and results of the evaluation of the g
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
-This software was created as part of a master's thesis at the [Faculty of Information Technology, Czech Technical University in Prague](https://fit.cvut.cz/en) and with cooperation from [AI dětem](https://www.aidetem.cz/).
+This software was created as part of a bachelor's thesis at the [Faculty of Information Technology, Czech Technical University in Prague](https://fit.cvut.cz/en) and with cooperation from [AI dětem](https://www.aidetem.cz/).
 
 <img src="logo-ctu-fit-blue.jpg" width="150" height="49" />
